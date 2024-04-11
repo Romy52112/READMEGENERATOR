@@ -40,11 +40,10 @@ function generateMarkdown(data) {
   ${data.description}
   ## Deployed Application URL
   ${data.link}
-  ## Screenshot
-  ![alt-text](${data.screenshot})
   ## Table of Contents
-  * [How to Use This Application](#HowtoUseThisApplication)
-  * [Contributing](#contributing)
+  * [Installation](#installation)
+  * [How to Use This Application](#usage)
+  * [Contributing](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
   ## Installation

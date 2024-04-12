@@ -1,12 +1,10 @@
 
   ## Project Title 
-  README FILE GENERATOR
+  READMEGENERATOR
   ## License
-  ![Github license](https://img.shields.io/badge/license-MIT License-blue.svg)
+   
   ## Description
-  This is a readme file generator, which you have to answer all the prompt question then at the end it will creat you a README file.
-  ## Deployed Application URL
-  undefined
+  This is a commnad line application which you have to answer all the prompt question then at the end it will give you a professional readme file.
   ## Table of Contents
   * [Installation](#installation)
   * [How to Use This Application](#usage)
@@ -16,11 +14,12 @@
   ## Installation
   npm install
   ## How to Use This Application:
-  none
+  node index.js
   ## Contributors
-  undefined
+  Contributions are welcome
   ## Testing
-  undefined
+  None
   ## Questions
-  Please send your questions @ Email: romymortilpisigan@gmail.com or visit GitHub: (https://github.com/Romy52112).
+  Please send your questions @ Email: romymortilpisigan@gmail.com or 
+  Visit GitHub: (https://github.com/Romy52112).
   

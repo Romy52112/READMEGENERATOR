@@ -1,10 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-  }
-  return "";
+  switch (license) {
+    case 'MIT':
+        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    case 'GPL 3.0':
+        return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+    case 'Apache 2.0':
+        return '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    default:
+        return ' ';
+}
 }
   
 // TODO: Create a function that returns the license link
@@ -38,8 +44,6 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
-  ## Deployed Application URL
-  ${data.link}
   ## Table of Contents
   * [Installation](#installation)
   * [How to Use This Application](#usage)
@@ -51,11 +55,12 @@ function generateMarkdown(data) {
   ## How to Use This Application:
   ${data.usage}
   ## Contributors
-  ${data.contributors}
+  ${data.contributing}
   ## Testing
-  ${data.test}
+  ${data.testing}
   ## Questions
-  Please send your questions @ Email: ${data.email} or visit GitHub: (https://github.com/${data.creator}).
+  Please send your questions @ Email: ${data.email} or 
+  Visit GitHub: (https://github.com/${data.creator}).
   `;
 }
 

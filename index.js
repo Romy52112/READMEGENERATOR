@@ -13,7 +13,7 @@ const question = [
     },
     {
         type: 'list',
-        choices: ['MIT License', 'Apache2.0','Mozilla Public License',"none",],
+        choices: ['MIT', 'Apache 2.0','GPL 3.0',"none",],
         name: 'license',
     },
     {

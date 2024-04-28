@@ -1,10 +1,10 @@
 
   ## Project Title 
-  READMEGENERATOR
+  Note Taket App
   ## License
    
   ## Description
-  This is a commnad line application which you have to answer all the prompt question then at the end it will give you a professional readme file.
+  The can use this app to take some note or make some reminder. This app has the title for your note and can put some text under it.
   ## Table of Contents
   * [Installation](#installation)
   * [How to Use This Application](#usage)
@@ -12,9 +12,9 @@
   * [Testing](#testing)
   * [Questions](#questions)
   ## Installation
-  npm install
+  npm start
   ## How to Use This Application:
-  node index.js
+  node server.js
   ## Contributors
   Contributions are welcome
   ## Testing
